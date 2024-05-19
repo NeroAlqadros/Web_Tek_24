@@ -5,13 +5,13 @@ $sifre="b211210018";
 
 if($kullanici_adi==$_POST['username'] && $sifre==$_POST['password'])
 {
-    echo "Hoşgeldiniz b211210018 <br/>";
-    echo " 5 saniye içinde hakkimda sayfasına yönelendirileceksiniz";
-    header("Refresh: 5; url=Hakkimda.html");
+    echo "HoÅŸgeldiniz b211210018 <br/>";
+    echo " 5 saniye iÃ§inde hakkimda sayfasÄ±na yÃ¶nelendirileceksiniz";
+    header("Refresh: 5; url=hakkimda.html");
 
 }
 else{
-    echo "Girilen bilgiler hatalıdır. 3 saniye içinde giriş ekranına yönelendirileceksiniz";
+    echo "Girilen bilgiler hatalÄ±dÄ±r. 3 saniye iÃ§inde giriÅŸ ekranÄ±na yÃ¶nelendirileceksiniz";
     header("Refresh: 3; url=login.html");
 }
 
